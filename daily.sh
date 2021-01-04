@@ -3,10 +3,13 @@
 
 DOCUMENTS="/home/centos/HummTraining"
 # if user enters 'day' show caldenar and date
-SHOWDAY=$1
+echo "Enter :"
+read SHOWDAY
+echo "$SHOWDAY"
+#$SHOWDAY=$1
 
 
-if [ "$1" == "day" ]
+if [ "$SHOWDAY" == "day" ]
 then
   # Display the calendar
   cal

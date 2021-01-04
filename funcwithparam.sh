@@ -1,7 +1,9 @@
 #!/bin/bash
 # this demo is for functional parameter passing
 # global variable
-USERNAME=$1
+echo "Enter Your Name :"
+read USERNAME
+#USERNAME=$1
 # function definitions - start
 # calculate age in days
 funcAgeInDays () {
@@ -10,7 +12,7 @@ funcAgeInDays () {
 }
 # function definitions - stop
 # scrip - start
-clear
+#clear
 echo "Enter Your Age: "
 read USERAGE
 # calculate the number of days
